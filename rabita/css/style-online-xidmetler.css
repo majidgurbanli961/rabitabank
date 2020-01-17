@@ -219,6 +219,9 @@ height: 250px;
     border-style: none;
     border-radius: 6px ;
 }
+.box-left h2{
+    opacity: 0.5;
+}
 .box-left button:hover{
     background-color:  #2e384d;
     opacity: 1;
@@ -327,4 +330,7 @@ p a{
 }
 .mon-moreinfo{
     font-size: 50px;
+}
+footer{
+    margin-top: 40px;
 }

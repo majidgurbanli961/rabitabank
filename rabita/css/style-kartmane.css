@@ -204,14 +204,17 @@ height: 250px;
 
 }
 .sub-green-content{
-    background-color: #f8fafb;
+    /* background-color: #f8fafb; */
     /* background-color:  */
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    /* box-shadow: 0 4px 16px 0 rgba(191, 197, 210, 0.3); */
     /* justify-content: space-between; */
+    /* background-color: black; */
     justify-content: space-between;
     height: 100px;
+    
     border-bottom: 1px solid gray;
 }
 .sub-content-first{
@@ -272,12 +275,14 @@ height: 250px;
     opacity: 0.7;
 }
 .kart-haqqinda{
+    margin-top: 20px;
     border-bottom: 5px solid #6ebb20;
     padding-bottom: 35px;
     width: 8%;
 }
 .elave-melumat{
     margin-left: 20px;
+    margin-top: 20px;   
     padding-bottom: 35px;
     width: 8%;
     transition: 0.12s;
@@ -293,15 +298,17 @@ height: 250px;
     margin-left: 20px;
 }
 .main-content{
-    padding: 20px;
+    /* box-shadow: 0px 2px gray; */
+    /* padding: 20px; */
 }
 .main-content-first{
     /* border: 2px solid black; */
     width: 100%;
+    margin-top: 30px;
     height: 100px;
     display: flex;
     /* padding: 20px; */
-    background-color: lightgray;
+   
 }
 .main-content-first-content{
     width: 33.3%;
@@ -380,6 +387,7 @@ height: 250px;
     background-color: #6ebb20;
     font-size: 25px;
     margin-top: 20px;
+    /* margin-bottom: 30px; */
     position: absolute;
     top: 220px;
     left: 400px;
@@ -460,7 +468,9 @@ height: 250px;
     color: #6ebb20;
 }
 .cashback-left h3{
+    margin-bottom: 0px;
     margin-left: 45px;
+    margin-top: 40px;
 
 }
 .cashback-left span{
@@ -470,15 +480,15 @@ height: 250px;
 }
 .firstof{
     position: absolute;
-    top: 160px;
+    top: 180px;
     left: 20px;
-    height: 40px;
+    height: 30px;
 }
 .secondof{
     position: absolute;
-    top: 240px;
+    top: 260px;
     left: 20px;
-    height: 40px;
+    height: 30px;
 
 }
 .etrafli-button{
@@ -525,7 +535,7 @@ height: 250px;
 .div-for-form{
     margin-top: 100px;
     /* background-color:  !important; */
-    background-color: #EAEEF0 !important;
+    background-color: #f8fafb !important;
 
 
 }
@@ -552,7 +562,7 @@ input{
     opacity: 0.7;
     position: absolute;
     /* top: 50px; */
-    top: 250px;
+    top: 255px;
     font-size: 30px;
     right: 180px;
 }
@@ -578,6 +588,7 @@ select option{
     /* float: right; */
     margin-right: 0px;
     margin-top: 100px;
+    margin-bottom: 30px;
     width: 80%;
     border-style: none;
     height: 40px;
@@ -613,7 +624,7 @@ select option{
     margin-top: 30px;
     /* border: 3px solid salmon; */
     /* background-color: lightgray; */
-    background-color: #EAEEF0;
+    background-color: #f8fafb;
 
     /* background-color:  */
     height: 250px;
@@ -667,7 +678,8 @@ select option{
     justify-content: space-between;
     height: 400px;
     /* border: 1px solid green; */
-    margin-top: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;    
 }
 .rabita-mobile-left{
     width: 60%;

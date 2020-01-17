@@ -164,7 +164,7 @@ header{
 .green-content-content{
     display: flex;
     justify-content: space-between;
-    height: 450px;
+    /* height: 450px; */
      /* align-items: center; */
 }
 .green-content-content-right{
@@ -263,6 +263,71 @@ header{
 .rabita-mobile-left p {
     font-size: 25px;
     opacity: 0.6;
+}
+.pre-footer{
+    background-color: #f8fafb;
+    /* padding: 20px; */
+    
+   
+}
+.pre-footer-up{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.pre-footer-up-right{
+    font-size: 40px;
+}
+.pre-footer-down{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pre-footer-down-content{
+    width: 16%;
+}
+.pre-footer-down-content h3{
+    margin-top: 15px;
+
+}
+.pre-footer-down-content li,p,h3{
+    list-style: none;
+    
+    margin-top: 4px;
+    opacity: 0.6;
+
+}
+.logo-content-apple{
+    /* border: 3px solid red; */
+    opacity: 0.3;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    width: 140px;
+}
+.logo-content-apple:hover{
+    opacity: 1;
+}
+.mon-applog{
+    font-size: 20px;
+}
+.apple-right{
+    margin-left: 7px;
+}
+.class-for-position{
+    position: absolute;
+    top: 240px;
+    right: 0px;
+}
+.class-for-position2{
+    position: absolute;
+    top: 240px;
+    right: 200px;
+
 }
 .pre-footer{
     background-color: #f8fafb;
